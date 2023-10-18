@@ -1,0 +1,60 @@
+/*start contact section styles */
+.container-fluid-custom {
+    background-color: #041121;
+    color: #fff;
+    height: 40px;
+}
+
+.container-fluid-custom .contact {
+    font-size: 15px;
+}
+
+.container-fluid-custom .contact i {
+    color: orange;
+    vertical-align: -10px;
+    margin-right: 15px;
+
+}
+
+.container-fluid-custom .contact span {
+    color: #fff;
+    margin: 5px;
+    vertical-align: 1px;
+}
+
+.container-fluid-custom .social-media {
+    float: right;
+}
+
+.container-fluid-custom .social-media i {
+    vertical-align: -6px;
+    padding: 10px;
+    width: 40px;
+    transition: all 0.5s ease;
+}
+
+.container-fluid-custom .social-media i:hover {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.container-fluid-custom .social-media a {
+    color: #fff;
+}
+
+/*end contact section styles */
+@media screen and (max-width: 992px) {
+    .container-fluid-custom .contact i:nth-child(1) {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container-fluid-custom .social-media a {
+        display: none !important;
+    }
+    .container-fluid-custom .contact {
+        text-align: center !important;
+    }
+}
