@@ -786,6 +786,8 @@
 .img-responsive {
     width: 100%;
     height: auto;
+    display: block;
+
 }
 
 .p-0 {
@@ -814,4 +816,13 @@
 
 .mt-50 {
     margin-top: 50px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.align-center{
+    text-align: center;
 }
