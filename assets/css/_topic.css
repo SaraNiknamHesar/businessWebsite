@@ -1,0 +1,71 @@
+.topic_section_wrapper {
+    background-image: url("../../assets/img/color-bg.png");
+    height: 900px;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-position: center;
+
+}
+
+.topic-wrapper:hover img {
+    transform: scale(1.4) rotate(10deg);
+}
+
+.topic_section_wrapper .card-header {
+    overflow: hidden;
+}
+
+.topic-wrapper .card-header img {
+    transition: all .5s ease;
+}
+
+.topic-wrapper .card {
+    box-shadow: 1px 15px 2px rgba(68, 102, 242, 0.07) !important;
+}
+
+.card-body {
+    margin: 25px 5px;
+}
+
+.topic-wrapper .card-body a {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.card-body .post-date {
+    top: -43px;
+    left: 8px;
+    width: 35px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.card-body .post-date div:first-child {
+    background-color: orange;
+}
+
+.card-body .post-date div:last-child {
+    background-color: #e2e1e1;
+}
+
+.topic-wrapper .card-body p {
+    font-size: 14px;
+    margin-top: 15px;
+    color: rgb(145, 145, 145);
+    line-height: 22px;
+    text-overflow:ellipsis ;
+}
+.topic-wrapper .card-footer ul{
+    border-top: 1px solid #f9f6f6;
+}
+.topic-wrapper .card-footer ul li {
+    display: inline-block;
+}
+
+.topic-wrapper .card-footer ul li  i, .topic-wrapper .card-footer ul span{
+    color: #cbc8c8;
+    font-size: 14px;
+    margin: 0 7px;
+
+}
