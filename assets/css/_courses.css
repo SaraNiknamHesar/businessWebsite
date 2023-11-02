@@ -2,7 +2,9 @@
 .section-title span {
     position: relative;
 }
-
+.section-title{
+    margin: 40px;
+}
 .section-title span::before {
     left: -55px;
     top: 8px;
@@ -27,7 +29,9 @@
 
 .card {
     box-shadow: 2px 2px 2px #f3f3f3;
-
+    cursor: pointer;
+    padding: 15px 0;
+    background-color: #FFFFFF;
 }
 
 
@@ -57,7 +61,8 @@
     text-overflow: ellipsis;
     max-width: 100%; /* Set a max-width as per your design */
 }
-.card-header .card-overlay{
+
+.card-header .card-overlay {
     background-color: red;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -68,7 +73,21 @@
     transition: all 1s ease-in;
 
 }
-.card:hover .card-overlay{
+
+.card:hover .card-overlay {
     opacity: 1;
+}
+
+.card .card-overlay P {
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+.course-section-custom{
+    background-image: url("../../assets/img/common_img.png");
+    background-attachment: fixed;
 }
 /*end courses style section*/
