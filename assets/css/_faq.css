@@ -1,31 +1,99 @@
-.faq-section-bg{
+.faq-section-bg {
     background-image: url("../../assets/img/faq-bg.jpg");
     min-height: 500px;
 }
-.faq-section-wrapper .faq-left-side{
+
+.faq-section-wrapper .faq-left-side {
     box-shadow: 1px 15px 2px rgba(68, 102, 242, 0.07) !important;
     height: 300px;
     background-color: white;
     margin-top: 80px;
 }
-.faq-section-wrapper .faq-left-side h6{
+
+.faq-section-wrapper .faq-left-side h6 {
 }
 
-.faq-section-wrapper .faq-left-side  i  {
+.faq-section-wrapper .faq-left-side i {
     font-size: 32px;
-  font-weight: bold;
+    font-weight: bold;
     margin-left: -5px;
     vertical-align: -5px;
     color: #6b6bff;
     /*vertical-align: -10px;*/
 }
-.faq-section-wrapper .faq-left-side h6 i span{
+
+.faq-section-wrapper .faq-left-side h6 i span {
     margin-left: 10px;
     color: black;
     font-size: 22px !important;
 }
-.faq-section-wrapper .faq-left-side p{
-     font-size: 14px;
+
+.faq-section-wrapper .faq-left-side p {
+    font-size: 14px;
     color: #ababab;
     margin: 10px 0 0 47px;
+}
+.faq-section-wrapper .faq-right-side{
+    margin-top: 80px;
+}
+.faq-section-wrapper .faq-right-side .tabs {
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+    /*background-color: #ffc412;*/
+}
+
+.faq-section-wrapper .faq-left-side .tab {
+    color: white;
+    overflow: hidden;
+
+}
+
+.faq-section-wrapper .faq-right-side .tab-label {
+    padding: 10px;
+    background-color: #6b6bff;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    color: white;
+    transition: .5s ease;
+}
+
+.faq-section-wrapper .faq-right-side .tab-label:hover {
+    background-color: #5d5dfd;
+}
+
+.faq-section-wrapper .faq-right-side .tab-label::after {
+    content: '\276f';
+    /*width: 16px;*/
+    /*height: 16px;*/
+    text-align: center;
+    transition: .4s;
+    float: right;
+    padding: 2px 0 0 0;
+    color: white;
+
+}
+
+    .faq-section-wrapper .faq-right-side .tab-content {
+    height: 0;
+    background-color: white;
+    transition: .5s ease;
+    /*padding: 10px;*/
+    font-size: 16px;
+        color: black;
+}
+
+.faq-section-wrapper .faq-right-side input:checked ~ .tab-content {
+    height: 50px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.faq-section-wrapper .faq-right-side input:checked + .tab-label::after {
+    transform: rotate(90deg);
+}
+
+.faq-section-wrapper .faq-right-side input {
+    display: none;
 }
