@@ -33,12 +33,12 @@
     color: #9c9898;
 }
 
-.footer-section-wrapper .footer-services {
+.footer-section-wrapper .footer-services, .footer-contact-us {
     color: #888787;
     padding: 23px 14px;
 }
 
-.footer-section-wrapper .footer-services h6 {
+.footer-section-wrapper .footer-services h6, .footer-contact-us h6 {
     font-size: 16px;
     border-bottom: 1px solid #302352;
     padding-bottom: 11px;
@@ -78,4 +78,45 @@
 
 .footer-section-wrapper .footer-services ul li i {
     margin-right: 8px;
+}
+
+.footer-section-wrapper .footer-contact-us ul {
+    text-align: center;
+}
+
+.footer-section-wrapper .footer-contact-us ul a {
+    color: #888787;
+    padding-right: 10px;
+    transition: .5s ease;
+}
+
+.footer-section-wrapper .footer-contact-us ul a:hover {
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 5px;
+}
+
+.footer-section-wrapper .footer-contact-us ul a i {
+    font-size: 20px;
+
+    margin-top: 10px;
+}
+
+.footer-section-wrapper .footer-contact-us .news-sign-up {
+    margin-top: 10px;
+}
+
+.footer-section-wrapper .footer-contact-us .news-sign-up input {
+    padding: 8px;
+    border-radius: 5px;
+    color: #888787;
+}
+.footer-section-wrapper .footer-contact-us .news-sign-up input:first-child{
+    width: 219px;
+}
+.footer-section-wrapper .footer-contact-us .news-sign-up input.absolute {
+    left: 67%;
+    background-color: orange;
+    border-radius: 5px;
 }
