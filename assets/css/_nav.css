@@ -16,11 +16,11 @@
 }
 
 .nav a.active-link {
-    border-bottom: 2px solid darkred;
+    border-bottom: 2px solid orange;
 }
 
 .nav a:hover {
-    border-bottom: 2px solid darkred;
+    border-bottom: 2px solid orange;
 }
 
 .hamburger-menu {
