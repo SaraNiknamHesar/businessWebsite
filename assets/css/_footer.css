@@ -1,6 +1,5 @@
 .footer-section-bg {
     background-color: #041121;
-    min-height: 300px;
 }
 
 .copy-right {
@@ -38,7 +37,7 @@
     padding: 23px 14px;
 }
 
-.footer-section-wrapper .footer-services h6, .footer-contact-us h6 {
+.footer-section-wrapper .footer-services h6, .footer-contact-us h6,.footer-communication-via-social h6 {
     font-size: 16px;
     border-bottom: 1px solid #302352;
     padding-bottom: 11px;
@@ -98,8 +97,7 @@
 }
 
 .footer-section-wrapper .footer-contact-us ul a i {
-    font-size: 20px;
-
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -118,7 +116,7 @@
 }
 
 .footer-section-wrapper .footer-contact-us .news-sign-up input.absolute {
-    left: 67%;
+    left: 158px;
     background-color: orange;
     border-radius: 5px;
 }
@@ -127,3 +125,27 @@
     outline: 0;
 
 }
+.footer-section-wrapper .footer-communication-via-social{
+    color: #888787;
+    padding: 23px 14px;
+
+}
+.footer-section-wrapper .footer-communication-via-social ul{
+    padding-top: 10px;
+}
+.footer-section-wrapper .footer-communication-via-social ul li{
+   margin-bottom: 5px;
+}
+.footer-section-wrapper .footer-communication-via-social ul a i{
+    padding-right: 10px;
+    color: #888787;
+}.footer-section-wrapper .footer-communication-via-social ul a{
+     color: #888787;
+ }
+ @media screen and (max-width: 576px){
+     .footer-section-wrapper .footer-contact-us .news-sign-up input.absolute {
+         left: 158px;
+         background-color: orange;
+         border-radius: 5px;
+     }
+ }
