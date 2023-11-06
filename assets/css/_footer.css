@@ -1,29 +1,81 @@
-.footer-section-bg{
+.footer-section-bg {
     background-color: #041121;
     min-height: 300px;
 }
-.copy-right{
+
+.copy-right {
     color: white;
     border-top: 2px dashed orange;
     padding-top: 10px;
 }
-.footer-description{
+
+.footer-description {
     color: white;
     padding: 14px;
 }
-.footer-description a{
+
+.footer-description a {
     color: white;
 
 }
-.footer-description i{
+
+.footer-description i {
     color: #b4d212;
     font-size: 30px;
     transform: rotate(-18deg);
     padding-right: 10px;
 
 }
-.footer-description p{
+
+.footer-description p {
     font-size: 16px;
     margin-top: 14px;
     color: #9c9898;
+}
+
+.footer-section-wrapper .footer-services {
+    color: #888787;
+    padding: 23px 14px;
+}
+
+.footer-section-wrapper .footer-services h6 {
+    font-size: 16px;
+    border-bottom: 1px solid #302352;
+    padding-bottom: 11px;
+}
+
+.footer-section-wrapper .footer-services ul {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.footer-section-wrapper .footer-services ul li {
+    margin-bottom: 6px;
+    transition: .5s ease;
+
+
+}
+
+.footer-section-wrapper .footer-services ul li:hover {
+    margin-bottom: 6px;
+    transition: .5s ease;
+    color: yellow;
+    margin-left: 5px;
+}
+
+.footer-section-wrapper .footer-services ul li a:hover {
+    margin-bottom: 6px;
+    transition: .5s ease;
+    color: yellow;
+    margin-left: 5px;
+
+
+}
+
+.footer-section-wrapper .footer-services ul li a {
+    color: #888787;
+}
+
+.footer-section-wrapper .footer-services ul li i {
+    margin-right: 8px;
 }
